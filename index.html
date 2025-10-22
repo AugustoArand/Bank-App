@@ -4,21 +4,21 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="shortcut icon" type="image/png" href="/icon.png" />
+    <link rel="shortcut icon" type="image/png" href="assets/icon.png" />
 
     <link
       href="https://fonts.googleapis.com/css?family=Poppins:400,500,600&display=swap"
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Bankist</title>
   </head>
   <body>
     <!-- TOP NAVIGATION -->
     <nav>
       <p class="welcome">Log in to get started</p>
-      <img src="logo.png" alt="Logo" class="logo" />
+      <img src="assets/logo.png" alt="Logo" class="logo" />
       <form class="login">
         <input
           type="text"
@@ -35,6 +35,54 @@
         <button class="login__btn">&rarr;</button>
       </form>
     </nav>
+
+    <!-- SEÇÃO DE CONTAS DE TESTE -->
+    <section class="test-accounts">
+      <div class="test-accounts__container">
+        <h2 class="test-accounts__title">Contas de Teste Disponíveis</h2>
+        <p class="test-accounts__subtitle">Use essas credenciais para acessar o sistema:</p>
+        
+        <div class="test-accounts__grid">
+          <div class="test-account__card">
+            <h3>Jonas Schmedtmann</h3>
+            <p><strong>Usuário:</strong> js</p>
+            <p><strong>PIN:</strong> 1111</p>
+            <p><strong>Saldo:</strong> €2770</p>
+          </div>
+          
+          <div class="test-account__card">
+            <h3>Jessica Davis</h3>
+            <p><strong>Usuário:</strong> jd</p>
+            <p><strong>PIN:</strong> 2222</p>
+            <p><strong>Saldo:</strong> €11810</p>
+          </div>
+          
+          <div class="test-account__card">
+            <h3>Steven Thomas Williams</h3>
+            <p><strong>Usuário:</strong> stw</p>
+            <p><strong>PIN:</strong> 3333</p>
+            <p><strong>Saldo:</strong> €10</p>
+          </div>
+          
+          <div class="test-account__card">
+            <h3>Sarah Smith</h3>
+            <p><strong>Usuário:</strong> ss</p>
+            <p><strong>PIN:</strong> 4444</p>
+            <p><strong>Saldo:</strong> €2270</p>
+          </div>
+        </div>
+        
+        <div class="test-accounts__instructions">
+          <h4>Como usar:</h4>
+          <ol>
+            <li>Digite o usuário (ex: js) no campo "user"</li>
+            <li>Digite o PIN correspondente no campo "PIN"</li>
+            <li>Clique na seta para fazer login</li>
+            <li>Explore as funcionalidades de transferência, empréstimo e visualização de extratos</li>
+          </ol>
+        </div>
+      </div>
+    </section>
 
     <main class="app">
       <!-- BALANCE -->
@@ -123,6 +171,6 @@
       &copy; by Jonas Schmedtmann. Don't claim as your own :)
     </footer> -->
 
-    <script src="script.js"></script>
+    <script type="module" src="js/app.js"></script>
   </body>
 </html>

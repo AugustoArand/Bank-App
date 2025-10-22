@@ -295,3 +295,112 @@ h2 {
 .timer {
   font-weight: 600;
 }
+
+/* Estilos para a seção de contas de teste */
+.test-accounts {
+  background: linear-gradient(to top left, #39b385, #9be15d);
+  padding: 3rem 0;
+  margin: 2rem 0;
+  border-radius: 1rem;
+}
+
+.test-accounts__container {
+  max-width: 100rem;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.test-accounts__title {
+  font-size: 2.4rem;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.test-accounts__subtitle {
+  font-size: 1.6rem;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 3rem;
+  opacity: 0.9;
+}
+
+.test-accounts__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.test-account__card {
+  background: rgba(255, 255, 255, 0.15);
+  padding: 2rem;
+  border-radius: 1rem;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.test-account__card:hover {
+  transform: translateY(-0.5rem);
+}
+
+.test-account__card h3 {
+  color: #fff;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.test-account__card p {
+  color: #fff;
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+  opacity: 0.9;
+}
+
+.test-account__card strong {
+  font-weight: 600;
+}
+
+.test-accounts__instructions {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 2rem;
+  border-radius: 1rem;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.test-accounts__instructions h4 {
+  color: #fff;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.test-accounts__instructions ol {
+  color: #fff;
+  font-size: 1.4rem;
+  padding-left: 2rem;
+}
+
+.test-accounts__instructions li {
+  margin-bottom: 0.5rem;
+  opacity: 0.9;
+}
+
+/* Responsividade para dispositivos menores */
+@media (max-width: 768px) {
+  .test-accounts__grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .test-accounts__title {
+    font-size: 2rem;
+  }
+  
+  .test-accounts__subtitle {
+    font-size: 1.4rem;
+  }
+}

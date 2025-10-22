@@ -111,9 +111,15 @@ Após o login, você verá:
   - Destructuring
   - Array Methods (map, filter, reduce, forEach)
   - Programação Funcional
+- **GitHub Pages**: Hospedagem estática gratuita
 
 ## 🚀 Como Executar
 
+### 🌐 **GitHub Pages (Online)**
+A aplicação está disponível online em:
+**[https://augustoarand.github.io/Bank-App/](https://augustoarand.github.io/Bank-App/)**
+
+### 💻 **Execução Local**
 1. **Clone o repositório**:
    ```bash
    git clone https://github.com/AugustoArand/Bank-App.git
@@ -123,6 +129,11 @@ Após o login, você verá:
 2. **Abra no navegador**:
    - Abra o arquivo `index.html` em um navegador moderno
    - Ou use um servidor local (Live Server, Python HTTP Server, etc.)
+   ```bash
+   # Exemplo com Python
+   python3 -m http.server 8000
+   # Acesse: http://localhost:8000
+   ```
 
 3. **Teste a aplicação**:
    - Use as contas de teste listadas acima
